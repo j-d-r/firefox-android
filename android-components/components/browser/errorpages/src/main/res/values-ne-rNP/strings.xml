@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:moz="http://mozac.org/tools">
     <!-- The button that appears at the bottom of an error page. -->
     <string name="mozac_browser_errorpages_page_refresh">पुनः प्रयास गर्नुहोस्</string>
 
@@ -42,6 +42,15 @@
     <string name="mozac_browser_errorpages_security_bad_cert_back">पछाडि जानुहोस् (सिफारिस गरिएको)</string>
     <!-- The text shown inside the advanced options button used to bypass the invalid SSL certificate. It's only shown if the user has expanded the advanced options. -->
     <string name="mozac_browser_errorpages_security_bad_cert_accept_temporary">जोखिम स्वीकार्नुहोस् र जारी राख्नुहोस्</string>
+
+    <!-- The document title and heading of the error page shown when a website uses HSTS. -->
+    <string name="mozac_browser_errorpages_security_bad_hsts_cert_title">यो वेबसाइटलाई सुरक्षित जडानको आवश्यकता छ ।</string>
+
+    <!-- The text shown inside the advanced button used to expand the advanced options. It's only shown when a website uses HSTS. -->
+    <string name="mozac_browser_errorpages_security_bad_hsts_cert_advanced">उन्नत…</string>
+
+    <!-- The text shown inside the advanced options button used to go back. It's only shown if the user has expanded the advanced options. -->
+    <string name="mozac_browser_errorpages_security_bad_hsts_cert_back">पछाडि जानुहोस्</string>
 
     <!-- The document title and heading of the error page shown when the user's network connection is interrupted while connecting to a website. -->
     <string name="mozac_browser_errorpages_net_interrupt_title">जडान अवरूद्ध भयो</string>
@@ -184,11 +193,6 @@
         <li>यदि तपाईं कुनै पनि पृष्ठहरू लोड गर्न असमर्थ हुनुहुन्छ भने, आफ्नो उपकरणको डाटा वा Wi-Fi जडान जाँच गर्नुहोस्।</li>
       </ul>
     ]]></string>
-
-    <!-- The document title and heading of an error page. -->
-    <string name="mozac_browser_errorpages_no_internet_title">इन्टरनेट जडान छैन</string>
-    <!-- The main body text of this error page. It will be shown beneath the title -->
-    <string name="mozac_browser_errorpages_no_internet_message">तपाईंको नेटवर्क जडान जाँच गर्नुहोस् वा केही क्षणमा पृष्ठ पुन: लोड गर्न प्रयास गर्नुहोस् ।</string>
 
     <!-- Text that will show up on the button at the bottom of the error page -->
     <string name="mozac_browser_errorpages_no_internet_refresh_button">पुनः लोड गर्नुहोस्</string>
